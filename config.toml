@@ -5,6 +5,7 @@ title = "COVID 19 forecast hub"
 theme = "syna"
 enableGitInfo = true
 version = "0.17.2"
+publishDir = "docs"
 
 # Google Analytics tracking
 googleAnalytics = ""
