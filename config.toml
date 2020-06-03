@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://hannanabdul55.github.io/covid-19-static"
 languageCode = "en-us"
 title = "COVID 19 forecast hub"
 theme = "syna"
