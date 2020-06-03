@@ -1,0 +1,30 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "secondary" }}
+<section id="{{ $name }}">
+  <div class="overlay container-fluid
+    {{- printf " bg-%s" $bg -}}
+  ">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col text-center
+        {{- if eq $bg "dark" -}}
+          {{- printf " text-%s" "light" -}}
+        {{- else -}}
+          {{- printf " text-%s" "dark" -}}
+        {{- end -}}
+      ">
+        <h4>Welcome to the main page of the COVID 19 forecast hub.</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <p>The goal of this repository is to create a standardized set of data on forecasts from teams 
+          making projections of cumulative and incident deaths and incident hospitalizations due to COVID-19 in the United States.
+          This repository is the data source for the official CDC COVID-19 Forecasting page. This project to collect, standardize, 
+          visualize and synthesize forecast data has been led by the CDC-funded UMass-Amherst Influenza Forecasting Center of Excellence 
+          based at the Reich Lab, with contributions from many others.</p>
+      </div>
+    </div>
+  </div>
+</section>
