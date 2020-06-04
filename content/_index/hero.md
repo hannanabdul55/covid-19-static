@@ -3,10 +3,10 @@ fragment = "hero"
 #disabled = true
 date = "2016-09-07"
 weight = 60
-background = "light" # can influence the text color
+background = "dark" # can influence the text color
 particles = true
 
-title = "COVID 19 forecst hub"
+title = "COVID 19 forecast hub"
 subtitle = "Welcome to COVID 19 forecast hub"
 
 [header]
