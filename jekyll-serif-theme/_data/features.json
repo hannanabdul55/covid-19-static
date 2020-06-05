@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Up-to-date forecasts",
+    "description": "Every Monday dozens of modeling teams from across the globe submit forecasts of the trajectory of the COVID-19 outbreak in the US to our forecast data repository. We take these data and build a single ensemble forecast.",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Public Health Impact",
+    "description": "COVID-19 Forecast Hub data are published each week by the CDC, serving as a vital source of information about where the outbreak is headed next.",
+    "image": "images/features/noun_The Process_1885341.svg"
+  },
+  {
+    "title": "Collaborative science",
+    "description": "We proudly follow open-science principles by welcoming participation from modeling teams around the globe to submit predictions from their best COVID-19 models.",
+    "image": "images/features/noun_3d modeling_1885342.svg"
+  }
+]

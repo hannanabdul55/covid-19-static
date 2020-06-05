@@ -1,0 +1,9 @@
+<div id="main-menu" class="main-menu">
+  <ul>
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/media/" class="{% if page.url contains 'media' %}current{% endif %}">Media</a></li>
+    <li><a href="https://reichlab.io/covid19-forecast-hub/" class="{% if page.url contains 'team' %}current{% endif %}" target="_blank">Visualization</a></li>
+    <li><a href="https://github.com/reichlab/covid19-forecast-hub" class="{% if page.url contains 'testimonials' %}current{% endif %}" target="_blank">Github</a></li>
+    <li><a href="http://reichlab.io" class="{% if page.url contains 'contact' %}current{% endif %}" target="_blank">Reichlab</a></li>
+  </ul>
+</div>
